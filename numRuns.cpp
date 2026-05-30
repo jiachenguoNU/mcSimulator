@@ -7,7 +7,7 @@
 // We do it by simulation: flip n coins many times (trials) and average the run counts.
 double simulate_runs(int n, int trials) {
     // --- Setting up the random number generator (2 pieces work together) ---
-    //
+    //sd
     // mt19937 is the random number ENGINE (the "Mersenne Twister" algorithm). Given a
     // starting number called a "seed", it produces a long, fast stream of random-looking
     // numbers. The same seed always gives the same stream, so to get different results
